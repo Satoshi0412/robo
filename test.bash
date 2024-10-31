@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FIleCopyrightText: 2024 Satoshi Ono
 # SPDX-LICENSE-Identifier: BSD-3-Clause
 
