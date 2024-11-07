@@ -7,7 +7,7 @@ ng () {
 }
 
 res=0
-
+##ry
 ### 正常動作 ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng "$LINENO"
