@@ -1,6 +1,6 @@
 #!/bin/bash -xv
-# SPDX-FIleCopyrightText: 2024 Satoshi Ono
-# SPDX-LICENSE-Identifier: BSD-3-Clause
+# SPDX-FileCopyrightText: 2024 Satoshi Ono
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
         echo ${1}行目が違うよ
