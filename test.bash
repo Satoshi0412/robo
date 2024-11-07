@@ -1,7 +1,6 @@
 #!/bin/bash -xv
 # SPDX-FileCopyrightTest: 2024 Satoshi Ono
 # SPDX-License-Identifier: BSD-3-Clause
-
 ng () {
         echo ${1}行目が違うよ
         res=1
@@ -9,11 +8,11 @@ ng () {
 
 res=0
 
-### NORMAL INPUT ###
+### 正常動作 ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng "$LINENO"
 
-### STRANGE INPUT ###
+### 異常動作 ###
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
