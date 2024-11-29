@@ -1,7 +1,11 @@
 # 挨拶コマンド
 時間に応じた挨拶を返してくれるプログラム
 
+<<<<<<< HEAD
 ![test](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.yml/badge.svg)
+=======
+[![test](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.yml)
+>>>>>>> 6f6fc6ca5a1eb6af2079f4d21b9dbab8758b8962
 
 ## 実行方法
 * GitHubのアカウントがない場合はHTTPSを使用
