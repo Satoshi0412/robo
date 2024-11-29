@@ -1,7 +1,7 @@
 # 挨拶コマンド
 時間に応じた挨拶を返してくれるプログラム
 
-![test](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.ynl/badge.svg)
+[![test](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.yml)
 
 ## 実行方法
 * GitHubのアカウントがない場合はHTTPSを使用
@@ -10,11 +10,16 @@ git clone https://github.com/Satoshi0412/robosys2024.git
 cd tmp/robosys2024
 ~~~
 
-* GitHubのアカウントがある場合はGitHubリポジトリからクローンしてインストー>
+* GitHubのアカウントがある場合はGitHubリポジトリからクローンしてインストー
 ルする。  
 ~~~
 git clone git@github.com:Satoshi0412/robosys2024.git  
 cd tmp/robosys2024  
+~~~
+
+* `aisatsukomando`スクリプトを実行可能にする
+~~~
+chmod +x aisatsukomando
 ~~~
 
 * 以下のコードを入力し、実行する。  
