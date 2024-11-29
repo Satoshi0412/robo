@@ -34,7 +34,7 @@ git clone https://github.com/Satoshi0412/robosys2024.git
 * 空白や、24時を超える入力をした場合も再度時刻を入力する。
 
 ## 必要なソフトウェア
-* python(テスト済みバージョン：3.7~3.10)
+* python(テスト済みバージョン：3.7~3.11)
 
 ## テスト環境
 Ubuntu 20.04
