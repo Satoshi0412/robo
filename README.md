@@ -1,25 +1,26 @@
 # 課題１ コマンド作成
 時間に応じた挨拶を返してくれるプログラム
 
-## 実行方法
-* 以下のコードをホームディレクトリでクローンする。
-~~~
-git clone git@github.com:Satoshi0412/robosys2024.git
-~~~
+![test](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.ynl/badge.svg)
 
-* 以下のコードを入力し、ディレクトリを移動する。
+## 実行方法
+* GitHubのアカウントがない場合はHTTPSを使用
 ~~~
+git clone https://github.com/Satoshi0412/robosys2024.git  
 cd tmp/robosys2024
 ~~~
 
-* GitHubのアカウントがない場合はHTTPSを使用
+* GitHubのアカウントがある場合はGitHubリポジトリからクローンしてインストー>
+ルする。  
 ~~~
-git clone https://github.com/Satoshi0412/robosys2024.git
+git clone git@github.com:Satoshi0412/robosys2024.git  
+cd tmp/robosys2024  
 ~~~
 
-* 以下のコードを入力し、実行する。
+* 以下のコードを入力し、実行する。  
 ~~~
-./kadai1
+./aisatsukomando 〇〇:〇〇   
+〇〇には時刻を入力
 ~~~
 
 ## 実行結果
