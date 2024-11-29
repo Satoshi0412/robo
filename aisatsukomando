@@ -1,0 +1,41 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Satoshi Ono <s23C1035NN@s.chibakoudai.jp>
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+def greet_by_time():
+    if len(sys.argv) != 2:
+        print("使用方法: ./aisatsukomando HH:MM")
+        sys.exit(1)
+
+    time_input = sys.argv[1]
+
+    # 入力が無効な場合
+    if not time_input or ':' not in time_input:
+        print("無効な時刻形式です。例: 18:00")
+        sys.exit(1)
+
+    try:
+        # 入力を時と分に分解
+        hour, minute = map(int, time_input.split(':'))
+    except ValueError:
+        print("時刻は数値で入力してください。例: 18:00")
+        sys.exit(1)
+
+    # 時刻が範囲外の場合
+    if not (0 <= hour < 24 and 0 <= minute < 60):
+        print("時刻が無効です。")
+        sys.exit(1)
+
+    # 挨拶を決定
+    if hour >= 18 or hour < 4:
+        print("こんばんは")
+    elif 4 <= hour < 10:
+        print("おはようございます")
+    elif 10 <= hour < 18:
+        print("こんにちは")
+
+if __name__ == "__main__":
+    greet_by_time()
+
