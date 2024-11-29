@@ -1,9 +1,6 @@
 # 課題１ コマンド作成
 時間に応じた挨拶を返してくれるプログラム
 
-## 必要なソフトウェア
-* python(テスト済みバージョン：3.7~3.11)
-
 ## 実行方法
 * 以下のコードをホームディレクトリでクローンする。
 ~~~
@@ -36,9 +33,11 @@ git clone https://github.com/Satoshi0412/robosys2024.git
 `無効な時間形式です。(例 18:00)`
 * 空白や、24時を超える入力をした場合も再度時刻を入力する。
 
+## 必要なソフトウェア
+* python(テスト済みバージョン：3.7~3.10)
 
 ## テスト環境
-Ubuntu20.04
+Ubuntu 20.04
 
 ## 参考資料
 * 繰り返しのユーザー入力のテスト
@@ -50,4 +49,4 @@ https://docs.python.org/3/library/functions.html#input
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
 * このパッケージのコードの一部は, 下記のスライド（CC-BY-SA 4.0 by ryuichi ueda）のものを, 本人の許可を得て自身の著作としたものです。  
 [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024)
-* ©2024 Satoshi Ono
+* © 2024 Satoshi Ono
