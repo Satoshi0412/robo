@@ -37,7 +37,7 @@ git clone https://github.com/Satoshi0412/robosys2024.git
 * python(テスト済みバージョン：3.7~3.11)
 
 ## テスト環境
-Ubuntu 20.04
+Ubuntu 22.04
 
 ## 参考資料
 * 繰り返しのユーザー入力のテスト
