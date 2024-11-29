@@ -13,7 +13,7 @@ git clone git@github.com:Satoshi0412/robosys2024.git
 * 以下のコードを入力し、ディレクトリを移動する。
 ~~~
 cd tmp/robosys2024
-~~
+~~~
 
 * 以下のコードを入力し、実行する。
 ~~~
