@@ -1,4 +1,4 @@
-# 課題１ コマンド作成
+# 挨拶コマンド
 時間に応じた挨拶を返してくれるプログラム
 
 ![test](https://github.com/Satoshi0412/robosys2024/actions/workflows/test.ynl/badge.svg)
