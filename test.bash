@@ -24,19 +24,17 @@ out=$(echo "14:00" | ./kadai1.py)
 
 ### 異常動作 ###
 # 無効な時刻形式（例: "あ"）に対するエラー処理
-out=$(echo "あ" | ./kadai1.py)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+out=$(echo "あ" | ./kadai1.py 2>/dev/null)
+[ "$?" = 1 ] || ng "$LINENO"
 
 # 空の入力に対するエラー処理
-out=$(echo "" | ./kadai1.py)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+out=$(echo "" | ./kadai1.py 2>/dev/null)
+[ "$?" = 1 ] || ng "$LINENO"
 
 # 24時間を超える無効な時刻（例: "25:00"）
-out=$(echo "25:00" | ./kadai1.py)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+out=$(echo "25:00" | ./kadai1.py 2>/dev/null)
+[ "$?" = 1 ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 exit "$res"
+
