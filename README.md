@@ -28,6 +28,21 @@ chmod +x aisatsukomando
 〇〇には時刻を入力
 ~~~
 
+##使用方法
+* 各時間を入力する例  
+`$./aisatsukomando 9:00`  
+・出力結果: おはようございます  
+`$./aisatsukomando 12:00`  
+・出力結果: こんにちは  
+`$,.aisatsukomando 18:00`  
+・出力結果: こんばんは  
+
+* 時間以外を入力した場合
+`$./aisatsukomando あ`  
+・出力結果: 無効な時刻形式です。例 18:00  
+`$./aisatsukomando  `  
+・出力結果: 使用方法: ./aisatsukomando HH:MM
+
 ## 実行結果
 * 実行後、以下のような指示が出てくるので、指示に従い時刻を入力する。  
 `現在時刻を入力してください（例: 18:00）:`
